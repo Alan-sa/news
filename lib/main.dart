@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'news/screens/news_list_screen.dart';
+import 'home_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -15,7 +15,7 @@ class MainApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.lightGreen,
       ),
-      home: NewsListScreen(),
+      home: MyBottomTabScreen(),
     );
   }
 }

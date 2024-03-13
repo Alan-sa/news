@@ -15,7 +15,8 @@ class _NewsListScreenState extends State<NewsListScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('News App'),
+        title:
+            const Text('News', style: TextStyle(fontWeight: FontWeight.bold)),
       ),
       body: ListView.builder(
         itemCount: _news.length,
